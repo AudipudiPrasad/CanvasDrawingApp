@@ -1,0 +1,108 @@
+/* Navbar styles (already added earlier) */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  font-family: sans-serif;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-right {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-right .save {
+  background-color: #28a745;
+  color: white;
+}
+
+.nav-right .load {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.nav-right button {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-right button:hover {
+  opacity: 0.9;
+}
+
+/* 🆕 Main UI below navbar */
+.main-ui {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: sans-serif;
+  justify-content: center;
+  /* align-items: center; */
+  margin-left: 10%;
+}
+
+/* Shape selector */
+.shape-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shape-selector label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Fill color & delete */
+.removing-colors {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.fill-color {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.delete {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  opacity: 0.9;
+}
+
+/* Optional: Canvas top spacing if it's being overlapped */
+.canvas-container {
+  margin-top: 20px;
+}
